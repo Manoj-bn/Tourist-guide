@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Lone Pine Koala Sanctuary</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #5380b1;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: blue;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@keyframes scroll{
+	0%{	opacity:.4;}
+	100%{opacity:1;}
+}
+
+
+@media screen and (max-width: 685px){
+	.container{
+		border: none;
+		width: 100%;
+		height: 0;
+		padding-bottom: 55%;
+	}
+
+	label span { font-size: 50pt; }
+
+	.prev, .next{
+		width: 15%;
+	}
+	#nav_slide .dots{
+		width: 12px;
+		height: 12px;
+	}
+}
+@media screen  and(min-width: 970px){
+	.me{ display: none;}
+}
+footer {
+  z-index: 99 !important;
+  position: fixed;
+  font-size: 0.8em !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+  background-color: #5380b1;
+  color: white;
+  text-align: center;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  height: 64px;
+  width: 64px;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+body {
+  body {background-color:  #ECE9AE;}
+}
+body {margin:0px;}
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-right: 25px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="navbar">
+<div class="logo">
+           <img src="logo.png">
+         </div>
+  <a href="index.html"><img src="home.jpg"  style="width:42px;height:42px;"></a>
+  <a href="natural_beauty.html"><img src="back.jpg"  style="width:42px;height:42px;"></a>
+</div>
+<center><p><br></p></center>
+<center><h1>Lone Pine Koala Sanctuary</h1></center>
+
+<section id="gallery">
+      <div class="head">
+      </div>
+      <div class="container">
+
+	<input type="radio" id="i1" name="images" checked />
+	<input type="radio" id="i2" name="images" />
+	<input type="radio" id="i3" name="images" />
+	<input type="radio" id="i4" name="images" />
+	<div class="slide_img" id="one">
+
+			<img src="Koala1.jpg">
+
+				<label class="prev" for="i5"><span>&#x2039;</span></label>
+				<label class="next" for="i2"><span>&#x203a;</span></label>
+
+	</div>
+
+	<div class="slide_img" id="two">
+
+			<img src="Koala2.jpg " >
+
+				<label class="prev" for="i1"><span>&#x2039;</span></label>
+				<label class="next" for="i3"><span>&#x203a;</span></label>
+
+	</div>
+
+	<div class="slide_img" id="three">
+			<img src="Koala3.jpg">
+
+				<label class="prev" for="i2"><span>&#x2039;</span></label>
+				<label class="next" for="i4"><span>&#x203a;</span></label>
+	</div>
+
+	<div class="slide_img" id="four">
+			<img src="Koala4.jpg">
+
+				<label class="prev" for="i3"><span>&#x2039;</span></label>
+				<label class="next" for="i5"><span>&#x203a;</span></label>
+	</div>
+
+	<div id="nav_slide">
+		<label for="i1" class="dots" id="dot1"></label>
+		<label for="i2" class="dots" id="dot2"></label>
+		<label for="i3" class="dots" id="dot3"></label>
+		<label for="i4" class="dots" id="dot4"></label>
+	</div>
+
+</div>
+    </section>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Lone Pine Koala Sanctuary is an 18-hectare (44-acre) koala sanctuary in the Brisbane suburb of Fig Tree Pocket in Queensland, Australia.
+
+Founded in 1927, it is the world's oldest and largest koala sanctuary in the world.The name originates from a lone hoop pine that was planted by the Clarkson family, the first owners of the 4.6-hectare (11-acre) site. The sanctuary opened in 1927 to provide a safe refuge to sick, injured, and orphaned koalas, at a time when they were being killed for their fur. The founder of the sanctuary, Claude Reid, recognised the need to protect this iconic species and initiated the protection of their habitat</p>
+</div>
+<center><p><br></p></center>
+<center><p><br></p></center>
+<center><p><br></p></center>
+<center><p><br></p></center>
+<center><p><br></p></center>
+<center><p><br></p></center>
+<center><p><br></p></center>
+
+<footer>
+  <div style="text-align: left; bottom:0;">
+<a href="https://www.facebook.com/"><img src="face.jpg"  style="width:30px;height:30px; margin-bottom: -1% !important;"></a><a href="https://twitter.com/LOGIN"><img src="twitter.jpg"  style="width:30px;height:30px; margin-bottom: -1% !important;"></a>
+</div>
+<a href="index.html" style="text-align:center; padding-right: 15px; margin-top: -10px;">Home</a> 
+<a href="about.html">About</a>
+<p style="text-align:right; padding-right: 15px; margin-top: -10px;"> Copyright 2020 © </p>
+</footer>
+  </body>
+</html>
