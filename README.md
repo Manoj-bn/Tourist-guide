@@ -4,5 +4,3 @@ This project tourist guide provides the tourist with city map depending on its c
 Hello World.!
 
 manoj here,  I am a python UI developer,And HTML CSS is also my intrest, I like coding in c, c++, python, HTML. I want to get and share knowledge with and from the github community.
-
-
